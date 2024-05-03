@@ -12,7 +12,7 @@ const App = () => {
   
   return (
     <div>
-        <P>Enter your name:</P>
+        <p>Enter your name:</p>
         <input type={text} value={name} onChange={onChangeText} />
         {name && <p>Hello {name}!</p>}
     </div>
