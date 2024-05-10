@@ -3,7 +3,5 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 
 
+ReactDOM.render(<App/>, document.getElementById("root"));
 
-const root = ReactDOM.createDOM(document.getElementById("root"));
-
-root.render(<><App/></>)
